@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userID": {
+      "type": "integer",
+      "unique": false
+    },
+    "content": {
+      "type": "text"
+    },
+    "carId": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

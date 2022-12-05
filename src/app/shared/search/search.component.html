@@ -1,0 +1,91 @@
+<!-- <h1 class="text-warning">سيارة Syarah VIP </h1> -->
+
+
+<div class=" page-search  ">
+<div class="advance-search ">
+    <div class="container">
+        <div class=" justify-content-center">
+            <div class="col  align-content-center">
+                <div>
+
+                    <div class="row">
+                    
+                        <div class="form-group  btn-group col-lg-2 col-md-6">
+                            <select class="form-select  bg-dark text-warning " aria-label="Default select example">
+                                <option selected class="text-warning">{{"selectBrand" | translate}}</option>
+                                <option #maker value="{{car.maker}}" *ngFor="let car of cars" (click)="selectbrand(maker.value)" >{{car.maker}}</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="form-group  btn-group col-lg-2 col-md-6">
+                            <select class="form-select  bg-dark text-warning " aria-label="Default select example">
+                                <option selected class="text-warning">{{"selectModel" | translate}}</option>
+                                <option #model value="{{m}}" *ngFor="let m of models" (click)="selectmodel(model.value)">{{m}}</option>
+                                
+                            </select>
+                        </div>
+                        <div class="form-group  btn-group col-lg-2 col-md-6">
+                            <select class="form-select  bg-dark text-warning " aria-label="Default select example">
+                                <option selected class="text-warning">{{"year" | translate}}</option>
+                                <option #year value="{{y}}" *ngFor="let y of years" (click)="selectyear(year.value)">{{y}}</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="form-group  btn-group col-lg-2 col-md-6">
+                            <select class="form-select  bg-dark text-warning " aria-label="Default select example">
+                                <option selected class="text-warning">{{"location" | translate}}</option>
+                                <option #location  value="{{l}}" *ngFor="let l of locations" (click)="selectlocation(location.value)">{{l}}</option>
+                                
+                            </select>
+                            
+                        </div>
+                        <div class="form-group btn-group  col-lg-3 col-md-12 align-self-center ">
+                            <button type="button"  class="btn btn-warning"  (click)="toproduct()">{{"search" | translate}}</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="form-group  btn-group col-lg-2 col-md-6">
+                            <button class="btn btn-dark text-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                {{"selectModel" | translate}}
+                            </button>
+                            <ul  class="dropdown-menu dropdown-menu-dark  ">
+                                <li><a class="dropdown-item text-warning" >موديل 1</a></li>
+                                <li><a class="dropdown-item text-warning" >موديل 2</a></li>
+                                <li><a class="dropdown-item text-warning" >موديل 3</a></li>
+                              </ul>
+                          </div> -->
+<!--                         
+                          <div class="form-group  btn-group col-lg-2 col-md-6">
+                            <button class="btn btn-dark text-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                {{"location" | translate}}
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark  ">
+                                <li><a class="dropdown-item text-warning" >الرياض</a></li>
+                                <li><a class="dropdown-item text-warning" >جدة</a></li>
+                                <li><a class="dropdown-item text-warning" > المدينة</a></li>
+                                <li><a class="dropdown-item text-warning" > تبوك</a></li>
+                                <li><a class="dropdown-item text-warning" > المدينة</a></li>
+                              </ul>
+                          </div> -->

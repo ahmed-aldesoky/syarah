@@ -1,0 +1,56 @@
+<header class="fixed-top  bg-dark px-5   ">
+		<div class=" row">
+			<div class="col-md-12">	
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+					<div class="container-fluid">
+
+					<a class="navbar-brand w-75" href="">
+						<img src="../../../assets/images/logoen.png" alt="" class=" mylogo" >
+					</a>
+					
+					<a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </a>
+					<div class="collapse navbar-collapse " id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto main-nav ">
+							<li class="nav-item active ">
+								<a class="nav-link" aria-current="page"  routerLink="/">{{"Home" | translate}}</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" routerLink="/product">{{"product" | translate}}
+								</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link login-button" routerLink="/login" *ngIf="!isLoggedIn">{{"login" | translate}}</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link login-button" routerLink="/signup" *ngIf="!isLoggedIn">{{"singup" | translate}}</a>
+							</li>
+							
+							<li class="nav-item dropdown dropdown-slide active">
+								<a class="nav-link dropdown-toggle"  role="button"data-bs-toggle="dropdown" aria-expanded="false">{{"language" | translate}}<span><i class="bi bi-arrow-down-short"></i></span></a>
+								<!-- Dropdown list -->
+								<ul class="dropdown-menu bg-dark ">
+									<li><a class="dropdown-item text-warning" (click)="changelanguage('ar')" >{{"arbic" | translate}}</a></li>
+									<li><a class="dropdown-item text-warning"  (click)="changelanguage('en')" >{{"english" | translate}}</a></li>
+									
+								</ul>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link login-button" routerLink="/signup" *ngIf="isLoggedIn" (click)="logout()">{{"logout" | translate}}</a>
+							</li>
+							<li>
+								<div class="d-flex align-items-center">
+									<div class="rounded-circle bg-success text-white avatar mr-2 d-flex align-items-center justify-content-center" *ngIf="isLoggedIn" placement="left"  routerLink="/">
+										<h3 class="avatar-text">{{avatarInitial | uppercase}}</h3>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+				</nav>
+			</div>
+		</div>
+</header>

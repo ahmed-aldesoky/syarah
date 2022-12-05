@@ -1,0 +1,78 @@
+<app-header></app-header>
+<!-- product show -->
+
+<section class="section bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>{{ "trendingAdd" | translate }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-2 g-lg-3">
+            <!-- product 01 -->
+            <!-- try -->
+            <div *ngFor="let car of cars" class="col">
+                <div>
+                    <div class="col">
+                        <!-- product card -->
+                        <div class="product-item bg-light">
+                            <div class="card">
+                                <div class="thumb-content">
+                                    <div class="price">{{car.price}} ريال</div>
+                                    <button class="fav btn btn-dark bi bi-heart-fill"></button>
+                                    <a (click)="toCar(car)">
+                                        <img class="card-img-top" src="{{ car.img1 }}" alt="Card image cap" height="400" style="object-fit: cover" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p style="font-size: small">{{ car.maker }}</p>
+
+                                    <h4 class="card-title">
+                                        <a (click)="toCar(car)">{{ car.name }} </a>
+                                    </h4>
+                                    <div class="row mt-3">
+                                        <p class="col-6">
+                                            {{ "model" | translate }}: {{ car.year }}
+                                        </p>
+                                        <p class="col-6">
+                                            {{ "Mileage" | translate }} :{{ car.mileage }} كم
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end try -->
+        </div>
+    </div>
+    <div class="justify-content-md-center text-center">
+        <li class="list-inline-item">
+            <a class="btn btn-main" routerLink="/product">{{ "more" | translate }}</a>
+        </li>
+    </div>
+</section>
+
+<section class="call-to-action section-sm">
+    <!-- Container Start -->
+    <div class="container">
+        <div class="row justify-content-md-center text-center">
+            <div class="col-md-8">
+                <div class="content-holder">
+                    <div class="bg-dark bg-opacity-50">
+                        <!-- Coupon description -->
+                        <h2 class="text-info">هل لديك سيارة لعرضها ؟</h2>
+                        <!-- Submii button -->
+                        <a href="single.html" class="btn btn-transparent-white">{{ "Submit" | translate }}
+            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container End -->
+</section>

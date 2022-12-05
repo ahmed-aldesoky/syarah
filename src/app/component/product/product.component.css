@@ -1,0 +1,61 @@
+.brand-logos {
+    display:grid;
+    grid-gap:2px;
+    grid-template-columns:repeat(3,1fr)
+   }
+   @media screen and (max-width:479px) {
+    .brand-logos {
+     justify-content:center
+    }
+   }
+   @media screen and (max-width:1205px) {
+    .brand-logos {
+        grid-template-columns:repeat(2,1fr)
+    }}
+   .brand-logos--svg {
+    border:1px solid #f3f3f3;
+    padding:8px;
+    color:#a1a1a1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    flex-direction:column;
+    text-align:center;
+    overflow:hidden;
+    height:78px;
+    width:78px;
+    font-weight:500;
+    text-decoration:none;
+    box-sizing:border-box
+   }
+   .brand-logos--svg:hover {
+    color:#f49719;
+    text-decoration:none;
+    border-color:#f49719
+   }
+   .brand-logos--svg [class^=svg-inline--fa],
+   .brand-logos--svg img,
+   .brand-logos--svg svg {
+    width:60px;
+    height:60px
+   }
+   .brand-logos--svg .text {
+    font-size:12px
+   }
+   .brand-logos .imgasicon {
+    transition:all .3s
+   }
+   .brand-logos .imgasicon img {
+    filter:opacity(.5) grayscale(1)
+   }
+   .brand-logos .imgasicon:hover img {
+    filter:grayscale(0) opacity(1)
+   }
+
+   .media{
+    font-size:xx-large;
+   }
+   .media span{
+    margin: 0 3px;
+   }

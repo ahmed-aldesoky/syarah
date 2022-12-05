@@ -1,0 +1,10 @@
+<div class="flex-grow-1 vw-95 d-flex flex-column align-items-center">
+    <app-title *ngIf="title && subtitle" [title]="title" [subtitle]="subtitle"></app-title>
+    <div class="card app-bg-light-green m-2">
+        <div class="card-body d-flex align-items-center flex-column">
+            <h4 class="font-weight-normal text-center mb-3 message">{{message}}
+            </h4>
+            <button [routerLink]="redirectPath" type="button" class="btn btn-sm app-bg-green">{{buttonText}}</button>
+        </div>
+    </div>
+</div>

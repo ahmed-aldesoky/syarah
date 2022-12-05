@@ -1,0 +1,302 @@
+/* You can add global styles to this file, and also import other style files */
+/* 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+.login {
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: 0px 0 0px;
+    background-image:url(../../../assets/images/background/loginbg.jpg);
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #237E8A;
+	background-color: #237E8A;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	cursor: pointer;
+
+}
+.sub{
+	border-radius: 20px;
+	border: 1px solid #237E8A;
+	background-color: #237E8A;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	cursor: pointer;
+
+}
+.sub:hover{
+	background-color: #dc7b69;
+
+}
+
+
+
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+
+
+
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	width: 900px;
+	max-width: 100%;
+	min-height: 600px;
+	max-height:600px;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	
+}
+
+.sign-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+
+}
+
+
+
+.overlay {
+	background: #007ef3;
+	background: -webkit-linear-gradient(to right, #237E8A, #007ef3);
+	background: linear-gradient(to right, #237E8A, #007ef3);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+  	
+}
+
+.arabic .overlay {
+	left: 0;
+	width: 100%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.notvalid{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.error{
+	color: red;
+}
+
+@media only screen and (max-width: 820px) {
+	.overlay-container{
+		display: none;
+	}
+	.container{
+		width: 80vw;
+	}
+	.form-container{
+		width: 100%;
+	}
+}
+
+.social-media-icons a{
+margin: 5px;
+color: #ffffff;
+font-size:25px;
+}
+ */
+
+
+
+
+
+ .gradient-custom-2 {
+	/* fallback for old browsers */
+	background-image: url('../../../assets/images/5.jpg');
+	background-position: center left;
+	background-origin: border-box;
+	
+	/* Chrome 10-25, Safari 5.1-6 */
+	/* background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); */
+    /* background-image: url('../../../assets/images/3.jpg'); */
+
+	
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); */
+	}
+	input {
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 100%;
+	}
+
+	h1 {
+		font-weight: bolder;
+		font-size: 28	px;
+		margin: 0;
+	}
+	
+	h2 {
+		text-align: center;
+		color: #FFFFFF;
+
+	}
+	h4 {
+		font-weight: bolder;
+		font-size: 28px;
+		font-weight: bolder;
+		font-size: 28px;
+		margin: 20px 0 30px;
+		color: #f49719;
+
+	}
+	
+	
+	p {
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+	}
+	
+	span {
+		font-size: 12px;
+	}
+	
+	a {
+		color: #333;
+		font-size: 14px;
+		text-decoration: none;
+		margin: 15px 0;
+	}
+	
+	button {
+		border-radius: 20px;
+		border: 1px solid #f49719	;
+		background-color: #f49719	;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 12px 45px;
+		letter-spacing: 1px;
+		cursor: pointer;
+	
+	}
+	.sub{
+		border-radius: 20px;
+		border: 1px solid #f49719	;
+		background-color: #f49719	;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 12px 45px;
+		letter-spacing: 1px;
+		cursor: pointer;
+	
+	}
+	.sub:hover{
+		background-color: #dc7b69;
+	
+	}
+	.notvalid{
+		border: 2px solid red;
+		border-radius: 5px;
+	}
+	.error{
+		color: red;
+	}
+	
+	@media (min-width: 768px) {
+	.gradient-form {
+	height: 100vh !important;
+	}
+	}
+	@media (min-width: 769px) {
+	.gradient-custom-2 {
+	border-top-right-radius: .3rem;
+	border-bottom-right-radius: .3rem;
+	}
+	}

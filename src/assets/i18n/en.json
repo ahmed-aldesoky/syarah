@@ -1,0 +1,75 @@
+{
+    "Home":"Home",
+    "login":"Login",
+    "logout":"logout",
+    "singup":"singup",
+    "arbic":"arabic ",
+    "english":"English ",
+    "product":"cars",
+    "language":"language",
+    "searchFor":"What are you looking for",
+    "selectBrand":"select Brand",
+    "selectModel":"select Model",
+    "selectYear":"select year",
+    "loerm":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia laudantium beatae quod perspiciatis, neque dolores eos rerum, ipsa iste cum culpa numquam amet provident eveniet pariatur, sunt repellendus quas voluptate dolor cumque autem molestias. Ab quod quaerat molestias culpa eius",
+    "biglorem":"",
+    "carType":"Lamborghini Huracan",
+    "date":"26th December",
+    "more":"see more",
+    "city":"Riyadh",
+    "maker":" maker",
+    "model":" Model",
+    "year":" year",
+    "Mileage":"Mileage",
+    "Cylinders":"Cylinders",
+    "Transmission":"Transmission",
+    "automatic":"automatic",
+    "Type":"type",
+    "coupe":"coupe",
+    "Doors":"Doors",
+    "Color":"Color",
+    "white":"white",
+    "Fuel":"Fuel",
+    "petrol":"petrol",
+    "Category":"Category",
+    "TopRated":" Top Rated",
+    "lowestPrice":"lowest Price",
+    "heightPrice":"height Price",
+    "location":"location",
+    "search":"search",
+    "trendingAdd":"trendingAdd",
+    "result":"result",
+    "price":"price",
+    "Condition":"Condition",
+    "Recommended":"Recommended",
+    "ProductSpecifications":"Product Specifications ",
+    "ProductDescription":"Product Description",
+    "ProductReview":"Product Review",
+    "SubmitReview":"SubmitReview ",
+    "Submit":"Submit",
+    "create":"Please create new account",
+    "name":"Name",
+    "email":"Email (optinal)",
+    "phone":"Phone",
+    "password":"password",
+    "confirm":"confirm password",
+    "already":"Already have an account",
+    "donot":"Don't have an account?",
+    "log":"Please login to your account",
+    "sort":"sort",
+    "show":"show cars",
+    "new":"New",
+    "used":"used",
+    "details":"Priced at $679,999 the Lamborghini Huracan is a veritable bargain in the world of exotic supercars, and unlike its bigger brother you could drive it every day without shanking your back. Its drop-dead gorgeous interior design and angular bodywork turn the everyday drive into an occasion and a cracking 448kW V10 mechanical beating heart nestled behind the driver ensures it's more than just a pretty face."
+    
+
+
+
+    
+
+    
+
+    
+
+
+}
